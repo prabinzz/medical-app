@@ -19,11 +19,11 @@ const HeroSection = () => {
               className="absolute -z-10 bottom-0 left-[-200px]"
               src="img/bg_art1.svg"
             />
-            <div className="text-primary text-lg font-medium">HOSPITAL APP</div>
+            <div className="action-header">HOSPITAL APP</div>
             <h1 className="text-dark font-bold text-6xl leading-[1.1] mb-4">
               An hospital that lives in your pocket
             </h1>
-            <p className="text-lg leading-normal text-muted mb-12">
+            <p className="p-muted mb-12">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit urna,
               tortor pulvinar dolor rhoncus sit. Tristique sit eros, luctus quam
               dignissim. Enim elementum, feugiat id vitae in.

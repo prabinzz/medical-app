@@ -1,13 +1,26 @@
-import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/home/HeroSection";
+import FlexDisplay from "@/components/utils/FlexDisplay";
+import Button from "@/components/utils/Button";
 import { ConfigProvider } from "antd";
-import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <ConfigProvider>
       <div className="app font-primary">
+        {/* Hero Section */}
         <HeroSection />
+        {/* Our mission section */}
+        <FlexDisplay>
+          <div className="action-header">OUR MISSION</div>
+          <h1 className="header-2">An hospital that lives in your pocket</h1>
+          <p className="p-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere
+            dignissim aliquam interdum id tincidunt sed vitae elementum sapien.
+            In amet sapien feugiat massa velit.
+          </p>
+          <div>
+            <Button size="lg" value="About Medic App" />
+          </div>
+        </FlexDisplay>
       </div>
     </ConfigProvider>
   );

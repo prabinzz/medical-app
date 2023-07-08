@@ -6,3 +6,15 @@
 body {
   @apply overflow-x-clip overflow-y-scroll;
 }
+
+.action-header {
+  @apply text-primary text-lg font-medium;
+}
+
+.header-2 {
+  @apply text-dark font-bold text-5xl leading-[1.1];
+}
+
+.p-muted {
+  @apply text-lg leading-normal text-muted;
+}
