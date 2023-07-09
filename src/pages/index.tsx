@@ -4,12 +4,15 @@ import Button from "@/components/utils/Button";
 import { ConfigProvider } from "antd";
 import OurCustomer from "@/components/home/OurCustomer";
 import Banner from "@/components/utils/Banner";
+import OurFeatures from "@/components/home/OurFeatures";
 export default function Home() {
   return (
     <ConfigProvider>
       <div className="app font-primary">
         {/* Hero Section */}
         <HeroSection />
+        {/* OurFeatures section */}
+        <OurFeatures />
         {/* Our mission section */}
         <FlexDisplay>
           <div className="action-header">OUR MISSION</div>
