@@ -3,6 +3,7 @@ import FlexDisplay from "@/components/utils/FlexDisplay";
 import Button from "@/components/utils/Button";
 import { ConfigProvider } from "antd";
 import OurCustomer from "@/components/home/OurCustomer";
+import Banner from "@/components/utils/Banner";
 export default function Home() {
   return (
     <ConfigProvider>
@@ -22,6 +23,7 @@ export default function Home() {
             <Button size="lg" value="About Medic App" />
           </div>
         </FlexDisplay>
+        <Banner />
         <OurCustomer />
       </div>
     </ConfigProvider>
