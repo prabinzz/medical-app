@@ -24,6 +24,10 @@ module.exports = {
       fontFamily: {
         primary: ["Plus Jakarta Sans", "sans-serif"],
       },
+      boxShadow: {
+        normal:
+          "0 1px 2px 0 rgba(0, 0, 0, 0.04), 0 6px 23px 0 rgba(32, 30, 98, 0.07)",
+      },
     },
   },
   plugins: [],

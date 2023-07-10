@@ -12,7 +12,7 @@ body {
 }
 
 .header-2 {
-  @apply text-dark font-bold text-4xl leading-[1.1];
+  @apply text-dark font-black text-4xl leading-[1.1];
 }
 
 .p-muted {

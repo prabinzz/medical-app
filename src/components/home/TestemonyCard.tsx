@@ -8,7 +8,7 @@ interface props extends PropsWithChildren {
 }
 const TestemonyCard = (props: props) => {
   return (
-    <div className="w-full rounded-3xl shadow-lg bg-white p-8">
+    <div className="w-full rounded-3xl shadow-normal bg-white p-8">
       <div className="flex flex-col gap-4">
         <div>
           <img className="h-12" src="img/stars.svg" />

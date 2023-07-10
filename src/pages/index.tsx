@@ -16,7 +16,9 @@ export default function Home() {
         {/* Our mission section */}
         <FlexDisplay>
           <div className="action-header">OUR MISSION</div>
-          <h1 className="header-2">An hospital that lives in your pocket</h1>
+          <h1 className="header-2">
+            Our mission is to make healthcare more accessible
+          </h1>
           <p className="p-muted">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere
             dignissim aliquam interdum id tincidunt sed vitae elementum sapien.
