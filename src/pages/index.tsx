@@ -5,6 +5,7 @@ import { ConfigProvider } from "antd";
 import OurCustomer from "@/components/home/OurCustomer";
 import Banner from "@/components/utils/Banner";
 import OurFeatures from "@/components/home/OurFeatures";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <ConfigProvider>
@@ -30,6 +31,7 @@ export default function Home() {
         </FlexDisplay>
         <Banner />
         <OurCustomer />
+        <Footer />
       </div>
     </ConfigProvider>
   );
