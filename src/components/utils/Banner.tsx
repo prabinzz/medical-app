@@ -1,7 +1,9 @@
 import React from "react";
 import Button from "./Button";
-
-const Banner: React.FC = () => {
+interface props {
+  direction: "verical" | "horizental";
+}
+const Banner = (props: props) => {
   return (
     <div className="relative container mx-auto overflow-clip">
       <img
@@ -17,10 +19,14 @@ const Banner: React.FC = () => {
         src="img/bg_art2.svg"
       />
       <div
-        className="font-black z-40 text-white bg-primary flex gap-8 
-      rounded-[4rem] flex-col items-center p-12 py-16"
+        className={`font-black z-40 text-white bg-primary flex gap-8 
+      items-center p-12 py-16 justify-between ${
+        props.direction == "horizental"
+          ? "flex-row rounded-[2rem]"
+          : " flex-col rounded-[4rem] text-center"
+      }`}
       >
-        <h1 className="text-4xl leading-normal text-center w-[50%]">
+        <h1 className="text-4xl font-black leading-normal w-[50%]">
           Download our app and get a free medical appointment
         </h1>
         <div className="flex gap-8">

@@ -16,7 +16,7 @@ const Button = (props: props) => {
     >
       {icons != undefined ? (
         <div className="inline-flex items-center gap-2">
-          <div className="text-3xl">{props.icon}</div>
+          <div className="text-2xl">{props.icon}</div>
           <div>{props.value}</div>
         </div>
       ) : (

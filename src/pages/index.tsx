@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <ConfigProvider>
-      <div className="app font-primary">
+      <div className="font-primary">
         {/* Hero Section */}
         <HeroSection />
         {/* OurFeatures section */}
@@ -29,7 +29,7 @@ export default function Home() {
             <Button size="lg" value="About Medic App" />
           </div>
         </FlexDisplay>
-        <Banner />
+        <Banner direction="verical" />
         <OurCustomer />
         <Footer />
       </div>
