@@ -16,5 +16,5 @@ body {
 }
 
 .p-muted {
-  @apply text-lg leading-normal text-muted;
+  @apply text-[20px] leading-normal text-muted;
 }

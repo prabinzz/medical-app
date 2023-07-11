@@ -16,7 +16,7 @@ export default function Home() {
         {/* OurFeatures section */}
         <OurFeatures />
         {/* Our mission section */}
-        <FlexDisplay>
+        <FlexDisplay img="img/display_art3.svg">
           <div className="action-header">OUR MISSION</div>
           <h1 className="header-2">
             Our mission is to make healthcare more accessible
