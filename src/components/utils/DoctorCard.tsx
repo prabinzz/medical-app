@@ -9,7 +9,7 @@ interface props {
 const DoctorCard = (props: props) => {
   return (
     <a
-      className="group transition-all duration-300 shadow-xl group-hover:shadow-2xl hover:scale-[.98] rounded-2xl overflow-hidden"
+      className="group transition-all duration-300 shadow-normal group-hover:shadow-2xl hover:scale-[.98] rounded-2xl overflow-hidden"
       href="#"
     >
       <div className="overflow-clip">

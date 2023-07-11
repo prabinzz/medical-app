@@ -7,7 +7,11 @@ interface props extends PropsWithChildren {
 }
 const FlexDisplay = (props: props) => {
   return (
-    <div className={`w-full ${props.className}`}>
+    <div className={`w-full relative ${props.className}`}>
+      <img
+        className="absolute right-40 top-20"
+        src="https://assets.website-files.com/60271d0221637de15a54a030/602c43338c6d63dcea5c2d4c_shape-about-story-hospital-template.svg"
+      />
       <div className="container grid gap-12 grid-cols-2 mx-auto py-36 items-center">
         <div
           className={`relative ${

@@ -3,7 +3,7 @@ import Button from "../utils/Button";
 
 const OurFeatures = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-clip">
       {/* Babkground Bar */}
       <div className=" absolute bottom-0 left-0 -z-10 w-screen h-[60vh] bg-gray-100"></div>
       {/* Background floating arts */}
@@ -16,7 +16,7 @@ const OurFeatures = () => {
         src="img/bg_art1.svg"
       />
 
-      <div className="container mx-auto py-32 pb-52 flex flex-col">
+      <div className="container mx-auto py-32 mt-40 pb-52 flex flex-col">
         <p className="action-header mb-4">OUR FEATURES</p>
         <div className="flex justify-between">
           <div className="gap-8 max-w-[53%]">
@@ -55,7 +55,7 @@ const OurFeatures = () => {
         <div className="mx-auto mt-24">
           <img src="img/display_art4.svg" />
           <div className="flex justify-center gap-8 mt-12">
-            <Button type="primary" size="lg" value="download the App" />
+            <Button type="primary" size="lg" value="Download the App" />
             <Button size="lg" value="Learn More" />
           </div>
         </div>

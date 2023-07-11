@@ -3,7 +3,10 @@ import IconCard from "../utils/IconCard";
 
 const OurValues = () => {
   return (
-    <div>
+    <div className="relative">
+      <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10">
+        <img src="img/bg_art1.svg" />
+      </div>
       <div className="container py-52 mx-auto flex flex-col">
         <div className="flex flex-col gap-3 mb-12">
           <p className="action-header">OUR VALUES</p>

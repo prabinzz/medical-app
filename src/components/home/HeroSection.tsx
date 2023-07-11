@@ -5,10 +5,9 @@ import Button from "../utils/Button";
 const HeroSection = () => {
   return (
     <div className="w-full overflow-y-clip">
+      {/* background */}
+      <div className="absolute top-0 -z-10 right-0 bg-primary rounded-bl-[14rem] h-[93vh] w-[50vw]"></div>
       <div className="container min-h-[900px] relative mx-auto">
-        {/* background */}
-
-        <div className="absolute bottom-0 -z-10 left-[50%] bg-primary rounded-bl-[14rem] h-screen w-full"></div>
         {/* Navigation Bar */}
         <NavBar bgType="dark" />
         {/* Two section */}

@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 interface props {
   type?: "primary" | "clear";
+  className?: string;
   value: string | ReactNode;
   size?: "narmal" | "lg";
   icon?: ReactNode | undefined;
@@ -13,7 +14,7 @@ const Button = (props: props) => {
         props.type === "primary"
           ? "bg-accent text-white font-bold"
           : "bg-white text-dark font-medium"
-      } ${props.size === "lg" ? "px-10 py-6" : ""}`}
+      } ${props.size === "lg" ? "px-10 py-5" : ""} ${props.className}`}
     >
       {props.icon != undefined ? (
         <div className="inline-flex items-center gap-2">

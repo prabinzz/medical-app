@@ -7,7 +7,7 @@ const OurCustomer = () => {
       <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10">
         <img src="img/bg_art1.svg" />
       </div>
-      <div className="container mx-auto py-36">
+      <div className="container mx-auto py-36 pb-48">
         <div className="flex gap-16">
           {/* Left section */}
           <div className="flex flex-col gap-16">

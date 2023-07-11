@@ -8,8 +8,8 @@ const PageLinks = () => {
         <p className="text-xl font-bold text-dark mb-6">Menu</p>
         <div className="flex gap-3">
           <div className="flex flex-col gap-4">
-            <NavLink href="#" title="Home" />
-            <NavLink href="#" title="About" />
+            <NavLink href="/" title="Home" />
+            <NavLink href="/about" title="About" />
             <NavLink href="#" title="Services" />
             <NavLink href="#" title="Blog" />
             <NavLink href="#" title="Blog Post" />

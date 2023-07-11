@@ -4,7 +4,10 @@ import DoctorCard from "../utils/DoctorCard";
 
 const OurDoctors = () => {
   return (
-    <div className="pt-36 pb-64 bg-gray-100 w-full">
+    <div className="pt-36 pb-64 relative bg-gray-100 w-full">
+      <div className="absolute left-0 top-[30%]">
+        <img src="https://assets.website-files.com/60271d0221637de15a54a030/602c4703389883ed70addef1_shape-1-about-team-hospital-template.svg" />
+      </div>
       <div className="container mx-auto flex flex-col gap-4 justify-center">
         <p className="action-header uppercase">Our Doctors</p>
         <div className="flex justify-between items-end">
@@ -15,7 +18,7 @@ const OurDoctors = () => {
             <Button size="lg" value="View Doctors" />
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-8 mt-8">
+        <div className="grid z-10 grid-cols-4 gap-8 mt-8">
           <DoctorCard
             image="https://assets.website-files.com/60271d0221637d97a254a066/602af52693e8e37ae168de37_image-8-team-hospital-template.png"
             name="Dr. Melissa Graham"

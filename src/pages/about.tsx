@@ -5,6 +5,7 @@ import OurDoctors from "@/components/about/OurDoctors";
 import FlexDisplay from "@/components/utils/FlexDisplay";
 import FlexDisplayReversed from "@/components/utils/FlexDispalyReversed";
 import OurValues from "@/components/about/OurValues";
+import HeroSection from "@/components/about/HeroSection";
 
 const about: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const about: React.FC = () => {
       <div className="container mx-auto font-primary">
         <NavBar bgType="light" />
       </div>
+      <HeroSection />
       <FlexDisplayReversed
         overflow={true}
         img="https://assets.website-files.com/60271d0221637de15a54a030/602c2f92604cfa05235a67e8_image-story-hospital-template.svg"

@@ -19,7 +19,7 @@ const Banner = (props: props) => {
         src="img/bg_art2.svg"
       />
       <div
-        className={`font-black z-10 text-white bg-primary flex gap-8 
+        className={`font-black text-white bg-primary flex gap-8 
       items-center p-12 py-16 justify-between ${
         props.direction == "horizental"
           ? "flex-row rounded-[2rem]"
@@ -29,7 +29,7 @@ const Banner = (props: props) => {
         <h1 className="text-4xl font-black leading-normal w-[50%]">
           Download our app and get a free medical appointment
         </h1>
-        <div className="flex gap-8">
+        <div className="flex gap-8 z-10">
           <Button type="primary" size="lg" value="Download the App" />
           <Button size="lg" value="View Pricing" />
         </div>
