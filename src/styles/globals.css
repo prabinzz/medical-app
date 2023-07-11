@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,13 +8,13 @@ body {
 }
 
 .action-header {
-  @apply text-primary text-lg font-medium;
+  @apply text-primary text-2xl font-medium;
 }
 
 .header-2 {
-  @apply text-dark font-black text-4xl leading-[1.1];
+  @apply text-dark font-bold text-[40px] leading-[1.2];
 }
 
 .p-muted {
-  @apply text-lg font-medium leading-normal text-muted;
+  @apply text-lg leading-normal text-muted;
 }

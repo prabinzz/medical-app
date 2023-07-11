@@ -6,6 +6,7 @@ import OurCustomer from "@/components/home/OurCustomer";
 import Banner from "@/components/utils/Banner";
 import OurFeatures from "@/components/home/OurFeatures";
 import Footer from "@/components/Footer";
+import ResourceCenter from "@/components/home/ResourceCenter";
 export default function Home() {
   return (
     <ConfigProvider>
@@ -31,6 +32,7 @@ export default function Home() {
         </FlexDisplay>
         <Banner direction="verical" />
         <OurCustomer />
+        <ResourceCenter />
         <Footer />
       </div>
     </ConfigProvider>

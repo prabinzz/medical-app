@@ -1,4 +1,3 @@
-import { icons } from "antd/es/image/PreviewGroup";
 import React, { ReactNode } from "react";
 interface props {
   type?: "primary" | "clear";
@@ -14,7 +13,7 @@ const Button = (props: props) => {
         props.type === "primary" ? "bg-accent text-white" : "bg-white text-dark"
       } ${props.size === "lg" ? "px-10 py-6" : ""}`}
     >
-      {icons != undefined ? (
+      {props.icon != undefined ? (
         <div className="inline-flex items-center gap-2">
           <div className="text-2xl">{props.icon}</div>
           <div>{props.value}</div>
