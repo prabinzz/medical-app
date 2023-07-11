@@ -11,7 +11,7 @@ const NavBar = (props: props) => {
   return (
     <div
       className="flex transition-colors duration-300 justify-between py-2 lg:py-8 items-center 
-    text-dark text-lg leading-none font-medium"
+    text-dark text-xl leading-none font-medium"
     >
       <div className="flex gap-8 grow">
         <img src="img/logo.svg" />
