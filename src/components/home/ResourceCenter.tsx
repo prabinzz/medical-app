@@ -3,7 +3,7 @@ import ResourceCard from "./ResourceCard";
 
 const ResourceCenter = () => {
   return (
-    <div className="pt-36 pb-36 bg-gray-50 w-full">
+    <div className="pt-36 pb-36 bg-gray-100 w-full">
       <div className="flex flex-col gap-2 w-[600px] text-center mx-auto">
         <p className="action-header uppercase">Resource Center</p>
         <h2 className="header-2 font-black leading-normal">

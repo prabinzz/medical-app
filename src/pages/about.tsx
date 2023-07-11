@@ -4,6 +4,7 @@ import NavBar from "@/components/NavBar";
 import OurDoctors from "@/components/about/OurDoctors";
 import FlexDisplay from "@/components/utils/FlexDisplay";
 import FlexDisplayReversed from "@/components/utils/FlexDispalyReversed";
+import OurValues from "@/components/about/OurValues";
 
 const about: React.FC = () => {
   return (
@@ -54,6 +55,7 @@ const about: React.FC = () => {
           Tempus.
         </p>
       </FlexDisplay>
+      <OurValues />
       <OurDoctors />
       <Footer />
     </div>

@@ -4,7 +4,7 @@ import DoctorCard from "../utils/DoctorCard";
 
 const OurDoctors = () => {
   return (
-    <div className="pt-36 pb-64 bg-gray-50 w-full">
+    <div className="pt-36 pb-64 bg-gray-100 w-full">
       <div className="container mx-auto flex flex-col gap-4 justify-center">
         <p className="action-header uppercase">Our Doctors</p>
         <div className="flex justify-between items-end">

@@ -5,7 +5,7 @@ const OurFeatures = () => {
   return (
     <div className="relative">
       {/* Babkground Bar */}
-      <div className=" absolute bottom-0 left-0 -z-10 w-screen h-[60vh] bg-gray-50"></div>
+      <div className=" absolute bottom-0 left-0 -z-10 w-screen h-[60vh] bg-gray-100"></div>
       {/* Background floating arts */}
       <img
         className="absolute top-24 -left-52 scale-75 rotate-12"
