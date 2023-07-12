@@ -63,8 +63,7 @@ const Footer = () => {
               className="text-primary underline"
               href="mailto:prabinparajuli92@gmail.com"
             >
-              {" "}
-              Prabin{" "}
+              Level 9
             </a>
             - Powered by Next.js
           </div>
