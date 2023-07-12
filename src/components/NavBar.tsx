@@ -22,10 +22,10 @@ const NavBar = (props: props) => {
           <Link className="hover:text-accent" href="/about">
             About
           </Link>
-          <Link className="hover:text-accent" href="/">
-            Pages
+          <Link className="hover:text-accent" href="/contact">
+            Contact
           </Link>
-          <Link className="hover:text-accent" href="/">
+          <Link className="hover:text-accent" href="/service">
             Services
           </Link>
         </div>

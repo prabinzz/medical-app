@@ -10,10 +10,10 @@ const PageLinks = () => {
           <div className="flex flex-col gap-4">
             <NavLink href="/" title="Home" />
             <NavLink href="/about" title="About" />
-            <NavLink href="#" title="Services" />
+            <NavLink href="/service" title="Services" />
             <NavLink href="#" title="Blog" />
             <NavLink href="#" title="Blog Post" />
-            <NavLink href="#" title="Contact" />
+            <NavLink href="/contact" title="Contact" />
           </div>
           <div className="flex flex-col gap-4">
             <NavLink href="#" title="Plans" />
